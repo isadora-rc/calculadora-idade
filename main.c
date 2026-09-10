@@ -11,7 +11,7 @@ int main() {
 
     idade = anoAtual - anoNasc;
 
-    printf("Idade: %d ano.\n", idade);
+    printf("Idade: %d anos.\n", idade);
 
     if (idade < 12) {
         printf("Faixa etária: Criança\n");
