@@ -13,5 +13,15 @@ int main() {
 
     printf("Idade: %d ano.\n", idade);
 
+    if (idade < 12) {
+        printf("Faixa etária: Criança\n");
+    } else if (idade < 18) {
+        printf("Faixa etária: Adolescente\n");
+    } else if (idade < 60) {
+        printf("Faixa etária: Adulto\n");
+    } else {
+        printf("Faixa etária: Idoso\n");
+    }
+
     return 0;
 }
